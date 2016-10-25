@@ -1,0 +1,48 @@
+*{margin: 0;padding: 0;}
+/*--menu--*/
+.men{background:black;color: white;}
+.call ul {list-style: none;}
+.call ul li{float: left; padding:5px;}
+.call ul li a{text-decoration:none;color: white; }
+.wrapper{margin: 0 auto;width: 1000px;}
+.menu1{background:#7BE74C ;}
+.log{float: left;}
+.logo{color: white;float:left;}
+.menu ul{list-style: none;padding: 0;margin:0;}
+.menu ul li{float: left;}
+.menu ul li a{ color:black;text-decoration: none; padding: 15px 15px;display: block;}
+.menu ul li a:hover{background: white;}
+.clear{clear: both;}
+.menu ul ul {
+	background: #54BE6B;
+	width: 200px;
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	transition: all .15 ease;
+}
+.menu li li{
+	float: none;
+}
+.menu li:hover> ul {
+	opacity: 1;
+	visibility: visible;
+}
+/*--tengah--*/
+.tengah{background: #0675E5;margin: 0 auto;text-align: center;padding: 70px;}
+.tengah ul{list-style: none;margin: 0 auto;text-align: center;}
+.tengah ul li{display: inline-block;}
+.tengah ul li a{position: relative;right:30px; display: inline-block;display: inline-block;
+				text-decoration: none;background: black;padding: 20px 20px;color: white;}
+				/*yang agak bawah*/
+.judul{color: white;text-align: center;}
+.about{text-align: center;background: #7BE74C;margin-top: 0;}
+.kotak{width: 25%;background-position: center}
+.bawah{background:#0675E5; }
+.mul{text-align: center;color: white;}
+.gambar img{width: 25%; float: left; padding: 5px;position:relative;left: 100px; }
+.teks {float: left;width: 25%;margin: 1%; position: relative;left: 85px;text-align: center;}
+/*navigasi*/
+.footer{background: black;}
+h4{color: white;}
+.ba{color: white;}
